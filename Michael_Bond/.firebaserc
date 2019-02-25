@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "develop": "michael-bond",
+    "default": "michael-bond"
+  }
+}
