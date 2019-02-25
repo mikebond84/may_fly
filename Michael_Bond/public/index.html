@@ -1,22 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-  <title>RD Fund</title>
+    <title></title>
+  </head>
 
-</head>
+    <title>Mayfly Farm</title>
+  </head>
 
-<body>
-  <div id="header">
-    <img />
-    <span>ON THE FARM</span>
-    <span>IN THE KITCHEN</span>
-    <span>PROJECTS</span>
-  </div>
+  <body>
   
-  <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+      <nav class="navbar navbar-fixed-top navbar-default justify-content-between">
+        <div class="container-fluid">
+       
+            <a class="navbar-brand" href="#">Mayfly Farm</a>
+         
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">On The Farm</a></li>
+            <li><a href="#">In The Kitchen</a></li>
+            <li><a href="#">At Your Table</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
     <script>
       // Initialize Firebase
       var config = {
@@ -29,9 +43,5 @@
       };
       firebase.initializeApp(config);
     </script>
-    
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="jquery.js"></script>
-  
-</body>
+  </body>
 </html>
