@@ -1,19 +1,15 @@
-//https://medium.freecodecamp.org/how-to-set-up-gulp-sass-using-the-command-line-if-youre-a-beginner-17729f53249
+const gulp = () => require(gulp);
 
-‘use strict’;
+// top level functions
+// gulp.task -Define Tasks
+// gulp.src -Point to files to use
+// gulp.dest -Point to folder to output
+// gulp.watch -Watch files and folders for changes
 
-var gulp = require(‘gulp’);
+// logs message
 
-var sass = require(‘gulp-sass’);
-
-//compile
-gulp.task(‘styles’, function () {
-  gulp.src(‘sass/**/*.scss’)
-  .pipe(sass().on(‘error’, sass.logError))
-  .pipe(gulp.dest(‘./css’));
-  });
-
-  //compile and watch
- gulp.task(‘sass:watch’, function() {
-  gulp.watch(‘app/scss/app.scss’, [‘sass’]);
- });
+gulp.task("hello", function() {
+  return;
+  console.log("hello");
+});
+gulp.task("default");

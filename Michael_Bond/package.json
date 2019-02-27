@@ -10,11 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.2.1",
-    "jquery": "^3.3.1",
-    "sass": "^1.17.2"
+    "jquery": "^3.3.1"
   },
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp": "^4.0.0"
   }
 }
