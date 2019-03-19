@@ -40,6 +40,11 @@ p.lead {
   font-weight: 400;
 }
 
+ul {
+  list-style-type: none;
+  margin-left: none;
+}
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
@@ -81,13 +86,9 @@ p.lead {
   text-transform: uppercase;
 }
 
-#sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
-}
-
 @media (min-width: 992px) {
   #sideNav {
-    text-align: center;
+    text-align: left;
     position: fixed;
     top: 0;
     left: 0;
@@ -98,7 +99,7 @@ p.lead {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 17rem;
+    width: 14rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
@@ -168,13 +169,13 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #dbdcdb !important;
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #f36159 !important;
 }
 
 a {
-  color: black;
+  color: #464546;
 }
