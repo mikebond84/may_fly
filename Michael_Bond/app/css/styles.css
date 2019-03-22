@@ -1,14 +1,9 @@
 body {
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  padding-top: 54px;
+  padding-top: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   color: #868e96;
-}
-
-@media (min-width: 992px) {
-  body {
-    padding-top: 0;
-    padding-left: 17rem;
-  }
 }
 
 h1,
@@ -42,7 +37,14 @@ p.lead {
 
 ul {
   list-style-type: none;
-  margin-left: none;
+  display: inline-flex;
+  padding-left: none;
+  padding-top: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+  padding: 1rem;
 }
 
 .subheading {
@@ -84,8 +86,15 @@ ul {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
+  text-align: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
-
+/* 
 @media (min-width: 992px) {
   #sideNav {
     text-align: left;
@@ -102,7 +111,8 @@ ul {
     width: 14rem;
     height: 100vh;
   }
-  #sideNav .navbar-brand {
+} */
+/* #sideNav .navbar-brand {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -112,9 +122,9 @@ ul {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
-  }
-  #sideNav .navbar-collapse {
+    border: 0.5rem solid rgba(255, 255, 255, 0.2); */
+
+/* #sideNav .navbar-collapse {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -126,21 +136,21 @@ ul {
     flex-grow: 0;
     width: 100%;
     margin-bottom: auto;
-  }
-  #sideNav .navbar-collapse .navbar-nav {
+  } */
+/* #sideNav .navbar-collapse .navbar-nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
-  }
-  #sideNav .navbar-collapse .navbar-nav .nav-item {
+  } */
+/* #sideNav .navbar-collapse .navbar-nav .nav-item {
     display: block;
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
-  }
-}
+  } */
+/* } */
 
 section.resume-section {
   padding-top: 5rem !important;
@@ -152,21 +162,21 @@ section.resume-section .resume-item .resume-date {
   min-width: none;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
-}
+} */
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
-}
+} */
 
 .bg-primary {
   background-color: #dbdcdb !important;
